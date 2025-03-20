@@ -10,14 +10,11 @@ const Login = ({ setIsAuthenticated }) => {
   const handleLogin = (e) => {
     e.preventDefault();
     
-    if (email === "727823tuec243@skct.edu.in" && password === "Subaharini@2005") {
-      alert("Login Successful!");
-      localStorage.setItem("isAuthenticated", "true");
-      setIsAuthenticated(true);
-      navigate("/home"); // Redirect to Home page
-    } else {
-      alert("Invalid email or password");
-    }
+    // Assuming successful login for any user
+    alert("Login Successful!");
+    localStorage.setItem("isAuthenticated", "true");
+    setIsAuthenticated(true);
+    navigate("/home"); // Redirect to Home page
   };
 
   return (
@@ -45,6 +42,7 @@ const Login = ({ setIsAuthenticated }) => {
 };
 
 export default Login;
+
 
 
 
