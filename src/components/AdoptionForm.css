@@ -1,0 +1,33 @@
+/* src/components/AdoptionForm.css */
+.adoption-form {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .adoption-form h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .adoption-form input,
+  .adoption-form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+  .adoption-form button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .adoption-form button:hover {
+    background-color: #218838;
+  }
+  

@@ -1,0 +1,26 @@
+.about-container {
+    text-align: center;
+    padding: 30px;
+    background-color: #fff;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    font-size: 16px;
+    padding: 5px;
+    color: #444;
+  }
+  
